@@ -3,4 +3,7 @@ class Book:
         self.__name = name
         self.__author: str = author
 
-print("hello world!")
+name = input()
+author = input()
+
+book = Book(name, author)
